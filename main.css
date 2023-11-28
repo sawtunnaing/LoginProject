@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/bg1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav_bar{
+    width: 100%;
+    height:60px;
+    background: #fc6464;
+}
+.nav_bar .logo{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    float: left;
+    color: blue;
+
+}
+.nav_bar a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: space-between;
+}
+a:hover{
+    color: rgb(199, 240, 16);
+}
+.box{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 400px;
+    background-color: pink;
+    text-align: center;
+    display: block;
+    border: 1px solid #001101;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+h2{
+    color: #ea0b0b;
+}
+.box .login_form input{
+    height: 40px;
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn{
+    background: blue;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: green;
+    color: #fff;
+}
+h4:hover{
+    color: red;
+    cursor: pointer;
+}
+span{
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+   
+}
+span:hover{
+    color: rgb(123, 7, 7);
+    cursor: pointer;
+}
+@media(max-width:600px)
+{
+    .nav_bar{
+        width: 100%;
+        height:60px;
+        background: #fc6464;
+    }
+    .nav_bar a{
+        display: inline-block;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .box{
+        width: 320px;
+        height: 500px;
+        margin: 10px;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: pink;
+        text-align: center;
+        display: block;
+        border: 1px solid #001101;
+        border-radius: 20px;
+        opacity: 0.7;
+    }
+}
